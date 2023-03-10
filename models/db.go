@@ -13,8 +13,8 @@ import (
 
 func ConnectDB() (*gorm.DB, error) {
 
-	DBHost := "localhost"
-	DBUserName := "root"
+	DBHost := "127.0.0.1"
+	DBUserName := "postgres"
 	DBUserPassword := "root"
 	DBName := "gin-casib-pr-db"
 	DBPort := "5432"
